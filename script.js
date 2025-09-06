@@ -5,7 +5,7 @@
 class WeatherApp {
     constructor() {
         // OpenWeatherMap API configuration
-        this.API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your actual API key
+        this.API_KEY = '50f503d6cd70b938e0b38dc8e67c376c'; 
         this.BASE_URL = 'https://api.openweathermap.org/data/2.5';
         this.GEO_URL = 'https://api.openweathermap.org/geo/1.0';
         
@@ -444,3 +444,4 @@ document.addEventListener('DOMContentLoaded', () => {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = WeatherApp;
 }
+
